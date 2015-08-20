@@ -1,9 +1,17 @@
 # ml4j-mnist :  Classifying MNIST digits using ml4j
 
+Kaggle Competition Entries:
+
+* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1877195  ( Feed Forward NN with weights pre-trained by Supervised Deep Belief Network )
+
+* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1880746  ( Convolutional Network, as per demo)
+
+
+
 ## Demos Provided:
 
-* DigitImageRawDataClassifierDemo :   Classifies raw MNIST data from csv files using pre-learnt Neural Network
-* DigitImageClassifierDemo :   Classifies (28 * 28) images from jpg files using pre-learnt Neural Network
+* DigitImageRawDataClassifierDemo :   Classifies raw MNIST data from csv files using pre-learnt Convolutional Neural Network
+* DigitImageClassifierDemo :   Classifies (28 * 28) images from jpg files using pre-learnt Convolutional Neural Network
 
 * DigitClassificationCNNTrainer  :  Trains a Convolutional Neural Network to classify images using raw MNIST data from csv files
 * DigitClassificationFNNTrainer   :  Trains a Feed Forward Neuron Network to classify images using raw MNIST data from csv files
