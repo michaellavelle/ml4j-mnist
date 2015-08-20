@@ -1,1 +1,34 @@
-# ml4j-mnist
+# ml4j-mnist :  Classifying MNIST digits using ml4j
+
+## Demos Provided:
+
+* DigitImageRawDataClassifierDemo :   Classifies raw MNIST data from csv files using pre-learnt Neural Network
+* DigitImageClassifierDemo :   Classifies (28 * 28) images from jpg files using pre-learnt Neural Network
+
+* DigitClassificationCNNTrainer  :  Trains a Convolutional Neural Network to classify images using raw MNIST data from csv files
+* DigitClassificationFNNTrainer   :  Trains a Feed Forward Neuron Network to classify images using raw MNIST data from csv files
+
+## Download/Import:
+
+git clone https://github.com/ml4j/ml4j-mnist.git
+
+cd ml4j-mnist
+
+mvn eclipse:eclipse  ( To import into Eclipse )
+
+## Running the demos in Eclipse
+
+*  Ensure you set memory settings appropriately for training - eg.  -Xms8000M -Xmx15000M
+
+*   JBlas is available by default on Macs - if it's not available on your system, a flag can be changed in the demo code to switch to using JAMA for matrix-matrix multiplication ( will run slower)  
+
+*   Demos assume Cuda GPU is not available - this can be changed via flags in demo code to speed up execution of both training demos and classification demos for larger datasets  ( for smaller datasets, the overhead of bus transfer means Cuda may run slower)
+
+*  If using Cuda GPU acceleration for the demos, ensure that DYLD_LIBRARY_PATH is available in Eclipse environment ( eg. by launching Eclipse from command line)
+
+
+
+
+
+
+
