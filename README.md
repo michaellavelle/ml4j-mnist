@@ -1,6 +1,6 @@
 # ml4j-mnist :  Classifying MNIST digits using ml4j
 
-Kaggle Competition Entries:
+Kaggle Competition Entries ( team 'michaellavelle' ) :
 
 * https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1877195  ( Score: 97% : Feed Forward NN with weights pre-trained by Supervised Deep Belief Network )
 
