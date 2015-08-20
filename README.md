@@ -14,7 +14,7 @@ Kaggle Competition Entries:
 * DigitImageClassifierDemo :   Classifies (28 * 28) images from jpg files using pre-learnt Convolutional Neural Network
 
 * DigitClassificationCNNTrainer  :  Trains a Convolutional Neural Network to classify images using raw MNIST data from csv files
-* DigitClassificationFNNTrainer   :  Trains a Feed Forward Neuron Network to classify images using raw MNIST data from csv files
+* DigitClassificationFNNTrainer   :  Trains a Feed Forward Neural Network to classify images using raw MNIST data from csv files
 
 ## Download/Import:
 
