@@ -2,9 +2,9 @@
 
 Kaggle Competition Entries:
 
-* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1877195  ( Feed Forward NN with weights pre-trained by Supervised Deep Belief Network )
+* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1877195  ( Score: 97% : Feed Forward NN with weights pre-trained by Supervised Deep Belief Network )
 
-* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1880746  ( Convolutional Network, as per demo)
+* https://www.kaggle.com/c/digit-recognizer/leaderboard?submissionId=1880746  ( Score 96.8% : Convolutional Network, as per demo)
 
 
 
